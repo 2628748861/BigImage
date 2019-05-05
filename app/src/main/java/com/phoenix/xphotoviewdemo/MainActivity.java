@@ -72,7 +72,10 @@ public class MainActivity extends AppCompatActivity
             switch (pos % 6) {
                 case 0:
                     imageView.setGif(true);
-                    imageView.setImage(getAssets().open("ninjia.gif"));
+//                    imageView.setImage(getAssets().open("ninjia.gif"));
+
+                    imageView.setImage(Environment.getExternalStorageDirectory().getPath()+"/tencent/MicroMsg/WeiXin/mmexport1557043511894.jpg");
+
                     break;
 
                 case 1:
